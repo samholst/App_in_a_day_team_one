@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
+  access user: :all, admin: :all, ta: :all
   def index
   end
 
