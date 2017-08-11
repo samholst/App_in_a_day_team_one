@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :reservation_details
   devise_for :users
   get 'pages/index'
 
