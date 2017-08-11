@@ -58,3 +58,4 @@ gem 'petergate', '~> 1.7', '>= 1.7.5'
 gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
 gem 'google-api-client', '~> 0.13.1', require: 'google/apis/calendar_v3'
 gem 'json', '~> 2.1'
+
