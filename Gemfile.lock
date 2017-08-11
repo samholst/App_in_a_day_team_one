@@ -41,9 +41,7 @@ GEM
     arel (7.1.4)
     autoprefixer-rails (7.1.2.4)
       execjs
-
     bcrypt (3.1.11)
-
     bindex (0.5.0)
     bootstrap (4.0.0.beta)
       autoprefixer-rails (>= 6.0.3)
@@ -96,6 +94,8 @@ GEM
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     orm_adapter (0.5.0)
+    petergate (1.7.5)
+      activerecord (> 4.0.0)
     pg (0.21.0)
     popper_js (1.11.1)
     puma (3.9.1)
@@ -187,6 +187,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  petergate (~> 1.7, >= 1.7.5)
   pg (~> 0.18)
   puma (~> 3.0)
   rails (~> 5.0.5)
