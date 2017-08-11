@@ -1,3 +1,4 @@
+
 @import "bootstrap";
 
 * {
@@ -8,11 +9,6 @@
 	margin-top: 30px;
 	margin-bottom: 50px;
 	text-align: center;
-}
-body {
-  
-  padding-bottom: 20px;
-  background-color: #f4f5f7
 }
 
 .navbar {
@@ -35,9 +31,17 @@ body {
 	color: #c1c1c1;
 }
 
+
 .back-button:hover {
 	text-decoration: none;
 	color: gray;
+}
+
+
+body {
+	background-color: #fff9f7;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .container {
@@ -48,6 +52,10 @@ body {
 
 .subheading {
 	color: #c1c1c1;
+}
+
+.ta-images {
+	border-radius: 100%;
 }
 
 .button-confirm {
