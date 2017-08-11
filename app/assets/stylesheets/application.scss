@@ -1,17 +1,22 @@
 @import "bootstrap";
 
+* {
+	font-family: 'Roboto', sans-serif;
+}
 
 .title-heading {
 	margin-top: 30px;
 	margin-bottom: 50px;
 	text-align: center;
-
+}
 body {
-  padding-top: 20px;
+  
   padding-bottom: 20px;
+  background-color: #f4f5f7
 }
 
 .navbar {
+	background-color: white;
   margin-bottom: 20px;
 }
 
@@ -20,22 +25,43 @@ body {
 }
 
 .confirm-heading {
-	text-align: center;
-	
+	line-height: 1em;
+	text-align: center;	
 
+}
+
+.back-button {
+	margin-left: 20%;
+	color: #c1c1c1;
+}
+
+.back-button:hover {
+	text-decoration: none;
+	color: gray;
+}
+
+.container {
+	background-color: white;
+	border-radius: 5px;
+	width: 60%;
+}
+
+.subheading {
+	color: #c1c1c1;
 }
 
 .button-confirm {
 	margin-left: 40%;
 	width: 20%;
+	padding-bottom: 10px;
 }
 
 .form-control {
-	width: 56%;
+	width: 80%;
 }
 
 .form-group {
-	margin-left: 30%;
+	margin-left: 17%;
 }
 
 .note-text-box {
@@ -45,5 +71,16 @@ body {
 .button-confirm {
 	margin-left: 40%;
 }
+.confirm-title {
+	padding-top: 10px;
+	font-weight: bold;
+}
 
+.footer-bottega {
+	position: absolute;
+	font-size: 10px;
+	padding: 10px;
+	bottom: 0;
+	background-color: white;
+}
 
