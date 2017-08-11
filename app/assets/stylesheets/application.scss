@@ -5,8 +5,61 @@
 	margin-top: 30px;
 	margin-bottom: 50px;
 	text-align: center;
+	font-weight: 700;
+}
+
+.subheading {
+	font-weight: 100;
+	color: #c1c1c1;
+}
+
+.ta-row {
+	background-color: white;
+	border-radius: 10px;
+	border-style: outset;
+	border-color: #fcfcfc;
+	margin-bottom: 20px;
+}
+
+.ta-thumbnail {
+	padding: 25px;
+	font-weight: 100;
+	color: #c1c1c1;
+}
+
+.carousel-dates{
+	padding: 25px;
+	font-weight: 100;
+	color: #c1c1c1;
+}
+
+.ta-calendar {
+	background-color: white;
+	border-radius: 10px;
+	border-style: outset;
+	border-color: #fcfcfc;
+}
+
+.buttons {
+  margin: auto;
+  
+}
+
+.time-buttons {
+	padding: 10px;
+	margin: 5px;
+	
+}
+
+.calendar-title {
+	text-align: center;
+	font-weight: 100;
+	color: #c1c1c1;
+}
+
 
 body {
+	background-color: #fff9f7;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -22,8 +75,8 @@ body {
 .confirm-heading {
 	text-align: center;
 	
-
 }
+
 
 .button-confirm {
 	margin-left: 40%;
@@ -45,5 +98,4 @@ body {
 .button-confirm {
 	margin-left: 40%;
 }
-
 
